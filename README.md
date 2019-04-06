@@ -28,3 +28,15 @@ opposed to a 24-bit per pixel coloured image with 24-bit sequences.)
 5. Repeat this until all the bits of the secret message have been embedded. The image will then be called as a stego image.
 
 The process is followed in exact reverse at the destination to decode the hidden message from the stego image.
+
+An instance of how the program works is as shown below:
+
+There is no difference seen whatsover in these images, even though there is a hidden message present in the stego image:
+
+![alt text](https://github.com/shamilee05/Steganography-LSB/blob/master/Cover_Stego.png)
+
+<br>
+
+The hidden message is embedded at the source and decoded at the destination:
+
+![alt text](https://github.com/shamilee05/Steganography-LSB/blob/master/Hidden_Message.png)
